@@ -289,13 +289,17 @@
         }
         textarea.form-input { resize: vertical; height: 120px; }
 
-        /* منع المتصفح من تغيير خلفية الحقول عند التعبئة التلقائية */
         input:-webkit-autofill,
         input:-webkit-autofill:hover,
         input:-webkit-autofill:focus,
         input:-webkit-autofill:active {
             -webkit-box-shadow: 0 0 0px 1000px var(--card-bg) inset !important;
             -webkit-text-fill-color: var(--text-light) !important;
+        }
+
+        .contact-container div form .btn{
+            display: block;            
+            justify-self:center;                        
         }
 
         /*Footer*/
